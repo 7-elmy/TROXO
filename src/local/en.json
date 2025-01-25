@@ -1,0 +1,296 @@
+{
+    "test":"test",
+    "home":{
+        "maintitle":"Smart Shipping And ",
+        "subtitle1":"Delivery Solutions ",
+        "subtitle2":"At Your Fingertips",
+        "subtitle3":"TRXOX provides integrated logistics and trade execution solutions that get your shipment safely and quickly to the desired destination.",
+        "start":"Start Now!"
+    },
+    "about":{
+        "about_us":"About Us",
+        "transport":"Transport & ",
+        "logistics":"logistics",
+        "discription1":"Everything you need to ship and deliver orders in a smart and easy way!",
+        "discription2":"Your comprehensive gateway to communicate with shipping companies from one control panel. Towards an unparalleled shipping experience, an innovative gateway to meet the needs of online stores and individuals, and facilitate the management and delivery of orders effectively and professionally. Shipping has become easier and faster with an integrated platform that allows you to fully control the shipping and delivery operations of orders easily and quickly."
+    },
+    "features": {
+    "header": "The features of Troxo are many waiting for you!",
+    "description": "We offer a lot of advantages for electronic stores to ship their products to their customers in all cities and governorates of the Kingdom of Saudi Arabia and international shipping.",
+    "marqueeText": "The features of Troxo are many waiting for you!",
+    "highEfficiency": "High Efficiency",
+    "premiumQuality": "Premium Quality",
+    "continuousImprovement": "Continuous Improvement",
+    "quickConversion": "Quick Conversion",
+    "directCoordination": "Direct Coordination",
+    "cashOnDelivery": "Cash on delivery"
+  },
+  "work": {
+    "heading": "How We Work for You: A Step-by-Step Guide",
+    "description": "Troxo is the quickest and simplest way to ship products to customers. We offer an exceptional shipping experience that meets the needs of e-commerce customers at every step.",
+    "step1": {
+      "title": "Enter shipment information",
+      "description": "Enter the shipment information, its weight and the address of the customer to be shipped to."
+    },
+    "step2": {
+      "title": "Choose the right carrier",
+      "description": "Browse the many carriers and choose the right price for your shipment."
+    },
+    "step3": {
+      "title": "Print the bill of lading",
+      "description": "Print the bill of lading and get ready to ship the order to your customer."
+    },
+    "step1Alt": "Step 1 Image",
+    "step2Alt": "Step 2 Image",
+    "step3Alt": "Step 3 Image"
+  },
+    "manage": {
+      "heading": "An integrated control panel to manage your shipments easily and quickly",
+      "highlight": "MENA’s #1 ",
+      "description": "With the #1 shipping gateway in the MENA region, you have full control over your shipments through a simple and effective web interface. The control panel enables you to manage orders, track shipments, analyze performance, and make returns in cooperation with multiple shipping companies, to facilitate your shipping experience from start to finish.",
+      "desc":"The 'Stores' page provides a user-friendly interface for managing store data. Here, you can easily add new stores and enter their basic information. The page also features a dedicated section for the admin to add products, allowing customers to select items available for shipping. Additionally, there is a classification section for organizing products, which helps customers easily find what they are looking for.",
+      "startButton": "Start For Free",
+      "statistics": "Your store’s homepage provides an overview of your business performance. It displays detailed statistics on the number of customers, completed shipments, and the most popular cities, helping you effectively track orders and make informed decisions. You can easily monitor growth and improvements with interactive graphical indicators, making store management smoother and more accurate.",
+      "dashboardLabel": "Dashboard",
+      "shopLabel": "Shop",
+      "dashboardAlt": "Dashboard illustration",
+      "shopAlt": "Shop illustration",
+      "footer": {
+        "heading": "“Explore endless possibilities – sign up today!”",
+        "description": "Sign up now to access advanced features, manage your shipments easily, and track your store’s performance..."
+      }
+    },
+        "partners": {
+          "heading": "Our Shipping & Distribution Partners",
+          "description": "A wide range of the best local and international companies",
+          "prideStatement": "We are proud that we create a profitable business for our clients, and strive to always provide the best.",
+          "map1Alt": "Map illustration 1",
+          "map2Alt": "Map illustration 2",
+          "container1Alt": "Container illustration 1",
+          "container2Alt": "Container illustration 2",
+          "servicesHeading": "Safe and Reliable Shipping Services",
+          "servicesDescription": "Get all your logistics needs in one place. In addition to being the preferred choice for Saudi companies, Troxo aims to provide an exceptional experience for individual customers.",
+          "stat1Alt": "Happy customers illustration",
+          "stat1Label": "Happy Customers",
+          "stat2Alt": "Success processes illustration",
+          "stat2Label": "Success Processes",
+          "stat3Alt": "Years of experience illustration",
+          "stat3Years": "Years",
+          "stat3Label": "of Experience"
+        },
+        "customer":{
+            "customer":"Client Success Stories",
+            "testimonial":"Testimonial"
+        },
+        "terms": {
+              "header": {
+                "title": "Welcome to Our Terms and Conditions"
+              },
+              "sections": {
+                "introduction": {
+                  "title": "Introduction:",
+                  "content": "Welcome to Troxo website, these terms and conditions shall be applicable on the website including all its sections. By using our website, you agree to be bound by these terms and conditions. If you do not agree to the terms and conditions, you must not use the website. It is worth noting that Troxo website reserves the right to amend, change or update the terms and conditions of the website at any time we deem fit, and these changes become effective when posted on the website without prior notice. Therefore, kindly review these terms and conditions regularly to monitor their change. Your continued visit and use of the Website after these terms and conditions have been posted means that you agree to the changes. You are entitled to use and benefit from Troxo website, after accepting the terms and conditions governing your access and use of the content and services offered to you on this website. The visitor shall observe and abide by the terms and conditions of our services. You shall be deemed to have agreed to be bound by the Terms and Conditions once you have clicked and used Troxo website. This introduction is an integral part of these terms and conditions. As part of our commitment to making Troxo a place you will want to visit frequently, we welcome all of your comments on any of the policies or rules we list below."
+                },
+                "definitions": {
+                  "title": "Definitions:",
+                  "content": "Troxo website that provides information and services"
+                },
+                "services": {
+                  "title": "Our Services:",
+                  "content": "All services and transactions that we provide through our website."
+                },
+                "terms_applicable": {
+                  "title": "Terms and Conditions Applicable by Troxo:",
+                  "content": "It means the terms and conditions for any service or product, which may be subject to modification or change from time to time."
+                },
+                "user_info": {
+                  "title": "User information:",
+                  "content": "It means the personal details you provide to us through the Troxo website."
+                },
+                "users": {
+                  "title": "Users:",
+                  "content": "It means the users of the Troxo website in general."
+                },
+                "content": {
+                  "title": "Content:",
+                  "content": "It means any reviews, comments, messages, data, information, text, image, code or other material posted or displayed on Troxo website directly."
+                },
+                "website_use": {
+                  "title": "Website use:",
+                  "content": "Anyone can enter the site and use the site, but only those who have reached the age of 18 are entitled to purchase any of the services or purchase from the store, and those under 18 can purchase under the supervision of a parent or legal guardian. We grant you a non-transferable and revocable license from the Site in accordance with the said terms and conditions. Commercial use and use of the Site on behalf of third parties is prohibited, except for uses that we expressly and previously license. Any breach of these Terms and Conditions will result in the immediate termination of the above-mentioned license without notice.",
+                  "content2":"You must acknowledge that you use the site as stipulated in the following conditions:",
+                "list": [
+                    "You will abide by the specific rules that apply to any promotion you participate in, in any way through Troxo website.",
+                    "You undertake not to do anything that would affect the operation or security of Troxo website or cause undue annoyance, abuse or disruption to any other users or our employees.",
+                    "Use an automated process to process, monitor, copy or extract any pages on Troxo, or any information, content or data contained therein, without our prior written consent.",
+                    "Take any action that imposes an unreasonable or disproportionately large load on the available infrastructure or the bandwidth of Troxo website.",
+                    "Not to copy, reproduce, alter, modify, derive works from, or publicly display, any portion of Troxo Content without our prior written consent.",
+                    "Use our website in any way that is unlawful, fraudulent, or harmful or in connection with any unlawful or fraudulent purpose or activity.",
+                    "It is strictly forbidden to use bots, spiders, crawlers, and other programs or to access the rules through other unauthorized programs, and the use of programs to collect and harvest mail addresses or e-mail addresses from the site is strictly prohibited."
+                  ]
+                },
+
+                "termination": {
+                  "title": "Termination:",
+                  "content": "We may, without prior notice, immediately terminate the Terms and Conditions or cancel any or all of the rights granted to you under the Terms and Conditions. Upon any termination of this Agreement, you must cease accessing and using the Site. We can also immediately cancel all passwords and account identity granted to you and may prevent you from accessing and using the Site in whole or in part. The termination of this Agreement shall not affect the rights and obligations (such as payment obligations) of either party that were made prior to the date of termination. You also agree that the site shall not be liable to you or to any other person as a result of any termination or discontinuance. If you are dissatisfied with the Site or with any of the terms, conditions, rules, policies and guidelines, your sole and exclusive remedy is to discontinue using it."
+                },
+                "notes": {
+                  "title": "Notes:",
+                  "list": [
+                    "Anything you post on the Site, such as questions, comments and suggestions, will become our exclusive property and you will not take it back. When you comment or give your opinion on the Site you also give us the right to use the name you provide in connection with the comments or other content. You should not use a false e-mail address, impersonate someone other than yourself, or mislead us.",
+                    "When you purchase services or purchase from the store on the step-by-step website, you agree to all the previous terms in this agreement, as well as you are considered to agree to the terms of purchase and retrieval from our website, and you also agree to the terms and conditions of each service or product that you purchase.",
+                    "In the event that you decide to purchase any product or service from our services, you must read the purchase and return agreement on our website in detail before completing the purchase process."
+                  ],
+                  "footer": "These terms are subject to constant change and development, and subscribers should review these policies periodically. If you notice any vague part or an error in the details of this policy, please alert us, and we thank all those who alerted us to previous errors."
+                }
+              }
+            },
+        "privacy": {
+              "header": {
+                "title": "Welcome to Our Privacy Policy"
+              },
+              "sections": {
+                "introduction": {
+                  "title": "Introduction:",
+                  "content": "Our Privacy Policy will help you understand what information we collect at Postgait and how Postgait uses it. Reference to the company in this Privacy Policy is inclusive of we , our or us, and at all times refers to Postgait, the Company which provides the Services. When we talk about 'Services' in this Privacy Policy, we are referring to our online platform, for providing Secondment Services. Our Services are currently available for use via a web browser or applications specific to your desktop or mobile device."
+                },
+                "definitions": {
+                  "title": "Information we collect and receive:",
+                  "content": "The Company may also collect and receive the following information:",
+                  "list": [
+                    "Account Creation Information: Users provide information such as an e-mail address and password to create and account",
+                    "Billing and other Information: Our Corporate affiliates and our third-party payment processors may collect and store billing address and credit/debit card information, or online/net banking information on our behalf or we may do this ourself.",
+                    "Usage Information: This is information about how you are accessing and using the Services, which may include administrative and support communications with us and information about people, content, links you interact with and what third party integrations you use (if any).",
+                    "Contact Information: With your permission contact information is collected, when you use/visit the Mobile App or web browser.",
+                    "Log Data: Our servers automatically record information, including information that your browser sends whenever you visit a website or your mobile app sends whenever you are using it. This log data may include without limitation your internet protocol address, your browser type and settings, the date and time of your use, information about your browser configuration and plug- ins, language preferences, and cookie data.",
+                    "Device Information: We may collect information about the device you are using, including what type of device it is, what operating system you are using, device settings, application IDs, unique device identifiers, and crash data. Whether we collect some or all of this information often depends on what type of device you are using and its settings.",
+                    "Geo-location information: Precise GPS location from mobile devices is collected only with your permission. Wi-Fi and IP addresses received from your browser or device may be used to determine approximate location.",
+                    "Integrations: If you integrate with a third-party service provider, we will integrate that service to ours. The third-party provider may share certain information about your account with the company. However, we do not receive or store your passwords for any of these third-party providers.",
+                    "Third party data: the company may receive information from affiliates in our corporate group, our partners, or others that we use to make our own information better or more useful. This might be aggregate level information, including without limitation assimilation of specific IP addresses with specific zip codes."
+                  ]
+                },
+                "services": {
+                  "title": "Our Cookie Policy:",
+                  "content": "The company used cookies and similar technologies to record log data. We use both session based and persistent cookies.<br/>Cookies are small text files sent by us to your computer and from your computer or mobile device to us each time you visit our website or use our application. They are unique to your account or your browser. Session based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire. Some cookies are associates with your account and personal information in order to remember that you are logged in. Other cookies are not tied to your account but are unique and allow us to carry our site/application analytics and customization among other similar things. The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance."
+                },
+                "terms_applicable": {
+                  "title": "How We Use Your Information:",
+                  "customer":"Customer Data:",
+                  "content": "the company may access and use Customer Data as reasonably necessary and in accordance with Customer's instructions",
+                  "list": [
+                        "to prevent or address Services, security, technical issues or at a Customer's request in connection with customer support matters;",
+                        "as required by law;",
+                        "as set forth in our contract with the Customer or as expressly permitted in writing by the Customer."
+                  ],
+                  "info":"Other information:"
+                 
+                
+                },
+                "user_info": {
+                    "kind":"We use other kinds of information",
+                    "list": [
+                            "To understand and improve our Services;",
+                            "To communicate with you by Responding to your requests. If you contact us with a problem or question, we will use your information to respond. Sending e-mails and messages. We may send you Services related and administrative e-mails and messages. We may also contact you to inform you about changes in our Services, our Services offerings, and important services related notices, including without limitation security and fraud notices. These e-mails and messages are considered part of the Services you may not opt of them. In addition, we sometimes send e-mails about new Services features, or other news about the company. You may opt out of these at any time."
+                  ]
+                },
+                "users": {
+                  "customer":"Billing and Account Management:",
+                  "content": "We use account data to administer accounts and keep track of billing and payments."
+                },
+                "content": {
+                  "customer": "Communicating and marketing:",
+                  "content":"We often need to contact you for invoicing, account management and similar reasons. We may also use your contact information for our own marketing or advertising purposes. You may opt out these at any time."
+                },
+                "content1": {
+                  "customer": "Investigation and Prevention of abuse and fraud:",
+                  "content": "The company is committed to keep the information provided by you secure and also prevent abuse and fraud. This policy is not intended to place any limitation on what we do with data that is aggregated and/or de-identified so it is no longer associated with identifiable user or Customer of the Services."
+                },
+                "website_use": {
+                  "title": "Sharing & Disclosure:",
+                  "content": "There are times when information described in this Privacy Policy may be shared by the company. This section describes only how the company may share such information. the company does not control how Customers, or their third parties choose to share and disclose Customer Data.",
+                  "content2":"Customer Data:",
+                  "kind":"the company may share Customer Data:",
+                "list": [
+                    "With Third Party Service Providers and Agents. We may engage third party companies and individuals to process Customer Data. ",
+                    "With affiliates. We may engage affiliates in our corporate group to process Customer Data.",
+                    "With third party integrations. the company may act on our Customer's behalf share Customer Data with the provider of an integration added by Customer or the company. The company is not responsible for how the provider of an integration may collect use, and share Customer Data."
+                  ]
+                },
+
+                "termination": {
+                 "customer":"Other Information:",
+                 "in":"The company may share other information as follows:",
+                "list": [
+                    "About you. There may be times when you contact the company to help resolve an issue specific to a governmental or official or legal process. In order to help resolve the issue we may share your information with the concerned government or official body.",
+                    "With third party service providers and agents. We may engage third party companies or individuals, such as third-party payment processors, to process information on our behalf.",
+                    "With affiliates. We may engage affiliates in our corporate group to process Other Information."
+                  ]
+                },
+                "termination2": {
+                 "customer":"Other Types of Disclosure:",
+                 "in":"The company may share or disclose Customer Data and Other information as follows:",
+                "list": [
+                  "During changes to our business structure: If we engage in a merger, acquisition, bankruptcy, dissolution, reorganization, sale of some of the company's assets, financing acquisition or of all or a portion of our business, a similar transaction or proceeding or steps in contemplation of these activities.",
+                  "Statutory Compliance: To comply with legal or regulatory requirements and to respond to lawful requests, court orders or legal processes.",
+                  "To enforce our rights to prevent fraud and for safety: To protect and defend the rights, property, or safety of us or third parties, including enforcing contracts or policies, or in connection with investigating and preventing fraud."
+                  ],
+                  "footer":"The company may disclose or use aggregate or de-identified information for any purpose, it deems appropriate."
+                },
+                "secure": {
+                    "title": "Security:",
+                    "content":"The company is serious about its security, and takes various steps to protect information you provide to us, from loss, misuse and unauthorized access or disclosure. These steps take into account the sensitivity of the information we collect, process and store, and the current state of technology."
+                  ,"content2":"No Warranty:",
+                  "nd":"You understand that the company does not provide any warranty, guarantee or representation of any kind concerning our ability to control, collect, correct, access, process, use, store, protect or transfer any personal information or concerning the existence or effectiveness of any security measures undertaken by Us. You agree that the company will not be liable for any claims, losses, or damages of any kind whatsoever which may result from the access, disclosure, use or modification by any party not authorized or authorized by us or the introduction of malware (including without limitation of viruses and worms) or other harmful elements to the system and their possible effects on personal information contained on the website or the Mobile App. By accessing the website or the Mobile App you acknowledge and understand to assume these risks."
+                },
+                "Limitation": {
+                    "title": "Limitation of Liability:",
+                    "content":"In no event will the company, its affiliates, partners and their respective employees, officers, directors or insurers be liable to you or to any other person for any costs, damages (including any personal, exemplary, incidental, special, indirect or consequential damages) or liability of any nature, arising or resulting from the collection, use, transfer, processing or storage of personal information obtained by Us and resulting from your access to and use of the Services through a Web Browser or a Mobile App"
+                  },
+                "Changes": {
+                    "title": "Changes to this Privacy Policy:",
+                    "content": "We may change this policy from time to time, and which may be updated on our website or application at our discretion. If you continue to use the Services after those changes are in effect, you agree to the revised changes."
+                  },
+                "Contact3": {
+                    "title": "Contact The Company:",
+                    "content": "Please feel free to contact us, if you have any questions about the company Privacy Policy or practices. You may contact us at support@postgait.com."
+                  }
+              }
+            },
+             "contactUs": {
+                  "title": "Get in Touch",
+                  "subtitle": "Reach out, and let's create a universe of possibilities together!",
+                  "helpTitle": "How can we help you?",
+                  "helpDescription": "If you would like to know more about how you can enjoy your dashboard on the web, please contact us and we will be in touch.",
+                  "form": {
+                    "firstName": "First Name",
+                    "lastName": "Last Name",
+                    "email": "Email",
+                    "phoneNumber": "Phone Number",
+                    "message": "Message",
+                    "buttonText": "Send it to the moon"
+                  }
+                },
+                "navbar":{
+                  "home": "Home",
+                  "privacy": "Privacy",
+                  "terms": "Terms & Conditions",
+                  "blogs": "Blogs",
+                  "login": "Login",
+                  "signup": "Start For Free",
+                  "language": "Language"
+                }
+                
+
+            
+              
+           
+          
+          
+          
+          
+      
+      
+  
+  
+}
+
