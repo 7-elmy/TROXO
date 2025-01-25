@@ -15,7 +15,7 @@ function App() {
   const  [i18n]= useTranslation()
   let router = createBrowserRouter([
     {path:"/" ,element:<MainLayout/> , children:[
-    {path:"/home",element:<Home/>},
+    {index:true,element:<Home/>},
     {path:"/term&Condition",element:<TermsConditions/>},
     {path:"/privacy",element:<Privacy/>},
     {path:"/contact-us",element:<ContactUs/>},
