@@ -14,7 +14,7 @@ export default function Privacy() {
       <div className="md:h-[450px] py-12 md:bg-transparent flex justify-center items-center">
         <p
           className={`text-white text-center p-2 md:p-0 font-[Segoe UI] font-semibold text-[37px] mb-8 md:mb-0 ${
-            isArabic ? "rtl:text-right" : "ltr:text-left"
+            isArabic ? "md:rtl:text-right" : "md:ltr:text-left"
           }`}
         >
           {t("privacy.header.title")}

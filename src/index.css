@@ -23,17 +23,23 @@ body {
 
 .custom{
   background-image:url("./assets/home.png") ;
+  background-color: #4D1A2D;
 }
 .term {
+  background-color: #4D1A2D;
   background:  url("./assets/bgTerms.svg");
    background-repeat: no-repeat;
   background-size: contain;
+
   
 }
 .privacy {
+  background-color: #4D1A2D;
   background:  url("./assets/privacy.svg");
    background-repeat: no-repeat;
   background-size: contain;
+
+ 
   
 }
 .pop {

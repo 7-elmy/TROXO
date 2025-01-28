@@ -101,11 +101,11 @@ export default function Blog() {
                    <img className='absolute bottom-[-30%] '  loading='lazy' src={finger1} alt="lines" />
         <div dir={isRTL ? "rtl" : "ltr"} className="grid grid-cols-12 gap-3">
           <div className="col-span-12 md:col-span-6 flex justify-center items-center z-10">
-            <div className={`flex flex-col justify-center items-${!isRTL? "center":"end "} space-y-8`}>
-              <h1 className="font-cairo text-[55px] text-[#4D1A2D] font-bold leading-[64.8px] tracking-[-1px]">
+            <div className={`flex flex-col justify-center items-${!isRTL? "center":"center md:end "} space-y-8`}>
+              <h1 className="font-cairo text-[40px] py-5 md:py-0 md:text-[55px] text-[#4D1A2D] font-bold leading-[64.8px] tracking-[-1px]">
                 {t("blog.title")}
               </h1>
-              <p className={`font-cairo text-[20px]  text-[#373737] font-medium leading-[40px] ${isRTL? "w-[60%]":""}   px-${isRTL? "0":"8"} text-${isRTL ? "left" : "left"}`}>
+              <p className={`font-cairo text-[20px]  text-[#373737] font-medium leading-[40px] ${isRTL? "w-full md:w-[60%]":""}   px-${isRTL? " 8 md:0":"8"} text-${isRTL ? "center md:left" : "center md:left"}`}>
                 {t("blog.desc")}
               </p>
               <button className={` bg-[#FFDDDD] ${isRTL? "w-[50%]":""}   text-[#373737] h-[53px] p-[16px_48px] gap-[10px] rounded-[8px]`}>

@@ -10,8 +10,8 @@ export default function TermsConditions() {
       {/* Header Section */}
       <div className="md:h-[450px] py-12 md:bg-transparent flex justify-center items-center">
         <p
-          className={`text-white text-center p-2 md:p-0 font-[Segoe UI] font-semibold text-[37px] mb-8 md:mb-0 ${
-            isArabic ? "rtl:text-right" : "ltr:text-left"
+          className={`text-white text-center p-2  md:p-0 font-[Segoe UI] font-semibold text-[30px] md:text-[37px] mb-8 md:mb-0 ${
+            isArabic ? "ps-8 md:ps-0 md:rtl:text-right text-center" : " ms-4 md:ms-0 text-center md:ltr:text-left"
           }`}
         >
           {t("terms.header.title")}
