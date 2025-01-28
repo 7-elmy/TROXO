@@ -5,7 +5,8 @@
         "subtitle1":"Delivery Solutions ",
         "subtitle2":"At Your Fingertips",
         "subtitle3":"TRXOX provides integrated logistics and trade execution solutions that get your shipment safely and quickly to the desired destination.",
-        "start":"Start Now!"
+        "start":"Start Now!",
+        "subtitle4":""
     },
     "about":{
         "about_us":"About Us",
@@ -171,7 +172,7 @@
                 },
                 "services": {
                   "title": "Our Cookie Policy:",
-                  "content": "The company used cookies and similar technologies to record log data. We use both session based and persistent cookies.<br/>Cookies are small text files sent by us to your computer and from your computer or mobile device to us each time you visit our website or use our application. They are unique to your account or your browser. Session based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire. Some cookies are associates with your account and personal information in order to remember that you are logged in. Other cookies are not tied to your account but are unique and allow us to carry our site/application analytics and customization among other similar things. The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance."
+                  "content": "The company used cookies and similar technologies to record log data. We use both session based and persistent cookies. Cookies are small text files sent by us to your computer and from your computer or mobile device to us each time you visit our website or use our application. They are unique to your account or your browser. Session based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire. Some cookies are associates with your account and personal information in order to remember that you are logged in. Other cookies are not tied to your account but are unique and allow us to carry our site/application analytics and customization among other similar things. The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance."
                 },
                 "terms_applicable": {
                   "title": "How We Use Your Information:",
@@ -272,13 +273,37 @@
                 },
                 "navbar":{
                   "home": "Home",
+                  "about":"About Us",
                   "privacy": "Privacy",
                   "terms": "Terms & Conditions",
                   "blogs": "Blogs",
                   "login": "Login",
                   "signup": "Start For Free",
                   "language": "Language"
-                }
+                },
+                "about-us":{
+                  "manage":"Manage your shipments",
+                  "subtitle":"with ease and smoothness",
+                  "desc":"With our smart system, track your shipments every step of the way. Get accurate statistics including customer numbers, shipments, and your preferred shipping companies, to achieve the highest levels of safety and efficiency in your shipping experience.",
+                  "store":"Manage your store's  product shipping with ease",
+                  "desc2":"Add your store and track your shipments step by step, with accurate product and customer statistics, to ensure a safe and efficient shipping experience.",
+                    "idealDesc":"We were founded, stepping miles towards innovation and leadership in the field of transport and logistics, as Postgait provides reliable and logistical solutions that fulfill the aspirations of every merchant by providing all the services he needs when shipping and transporting goods from one place to another.",
+                    "idealTitle":"Our idea",
+                    "messageDesc":"Providing unique services with high quality and competitive prices that make you comfortable in managing your shipments and focusing on developing your products and marketing your brand.",
+                    "messageTitle":"Our message",
+                    "visionDesc":"To be the best choice for traders and investors, and to do our utmost to provide innovative logistical and executive services and solutions.",
+                    "visionTitle":"Our vision",
+                    "partner":"Our Top Partners"
+                },
+                "blog": {
+  "title": "Welcome to the Blog",
+  "desc": "We bring you the latest updates and strive to assist you by providing insights into our services or anything you need to know.",
+  "btn": "Read More",
+  "view":"View All",
+  "recent":"Our Recent Post",
+  "popular":"Popular Post"
+}
+
                 
 
             

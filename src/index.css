@@ -5,11 +5,8 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -21,7 +18,7 @@
 body {
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fff;
+  background: #fff !important;
 }
 
 .custom{
@@ -44,4 +41,35 @@ body {
    background-repeat: no-repeat;
   background-size: cover;
   
+}
+.about-us{
+  background:  url("./assets/horizantalabout.png");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.about1-us{
+  background:  url("./assets/horizantalabout.png");
+  background-repeat: no-repeat;
+ background-size: 100% 100%;
+}
+.about-last-section{
+  background:  url("./assets/verticalabout.png");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+.about1-last-section{
+  background:  url("./assets/Shapes.png");
+  background-repeat: no-repeat;
+ background-size: cover;
+}
+
+.test{
+  
+    list-style-type: square;
+
+}
+.test li::marker {
+  color: #4D1A2D; /* Text color inside the square */
+  padding: 5px; /* Add padding for better size */
+  border-radius: 5px; /* Optional: adjust to create rounded corners */
 }

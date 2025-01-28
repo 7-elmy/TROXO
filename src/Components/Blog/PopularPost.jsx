@@ -1,73 +1,77 @@
 import React from 'react'
 import Card from '../../utils/Card'
 import wave from "../../assets/waves.png"
+import image6 from "../../assets/blog/image6-blog.png"
+import image7 from "../../assets/blog/image7-blog.png"
+import image8 from "../../assets/blog/image8-blog.png"
+import image9 from "../../assets/blog/image9-blog.png"
+import image10 from "../../assets/blog/image10-blog.png"
+import image11 from "../../assets/blog/image11-blog.png"
+import { useTranslation } from 'react-i18next'
 export default function PopularPost() {
+    const { t, i18n } = useTranslation();
+  const currentLang = i18n.language; // Detect current language
+  const isRTL = currentLang === "ar"; // Check if the language is Arabic
   return (
-    <section>
+    <section dir={isRTL ? "rtl" : "ltr"}>
         <div className='flex justify-between items-center px-4'>
 
-        <h2 className='font-raleway text-[25px] md:text-[48px] font-bold leading-[50px] tracking-[-0.88px] text-center text-[#4D1A2D]'>Popular Post</h2>
-        <button className='bg-[#4D1A2D] text-white rounded-lg p-2 px-8'>View All</button>
+        <h2 className='font-raleway text-[25px] md:text-[40px] font-bold leading-[50px] tracking-[-0.88px] text-center text-[#4D1A2D]'>{t("blog.popular")}</h2>
+        <button className='bg-[#4D1A2D] text-white rounded-lg p-2 px-8'>{t("blog.view")}</button>
 
         </div>
 
         <div className='grid grid-cols-12 gap-4 my-5 px-4'>
-            <div className='col-span-12 md:col-span-3'>
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image6}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image7}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image8}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
+        
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image9}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image10}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
+            <div className='col-span-12 md:col-span-4'>
                 <Card
+                image={image11}
                 name={"Travel"}
                 time={"11March 2023"}
                 mainTitle={"Best Website to research for your  next project"} 
                 desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
             </div>
-            <div className='col-span-12 md:col-span-3'>
-                <Card
-                name={"Travel"}
-                time={"11March 2023"}
-                mainTitle={"Best Website to research for your  next project"} 
-                desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
-            </div>
-            <div className='col-span-12 md:col-span-3'>
-                <Card
-                name={"Travel"}
-                time={"11March 2023"}
-                mainTitle={"Best Website to research for your  next project"} 
-                desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
-            </div>
+          
           
         </div>
 

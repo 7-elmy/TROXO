@@ -37,10 +37,10 @@ export default function PartnersLandingPages() {
           <p className="text-[#6C757D] text-[16px]">
             {t("partners.description")}
           </p>
-          <div className="md:flex justify-between items-center gap-8 my-5">
-            <img loading="lazy" className="mx-auto md:m-0" src={smsa} alt="smsa" />
-            <img loading="lazy" className="mx-auto md:m-0" src={dhl} alt="DHL" />
-            <img loading="lazy" className="mx-auto md:m-0" src={aramex} alt="aramex" />
+          <div className="md:flex justify-between items-center gap-8 my-5 space-y-10">
+            <img loading="lazy" className="mx-auto  md:m-0" src={smsa} alt="smsa" />
+            <img loading="lazy" className="mx-auto  md:m-0" src={dhl} alt="DHL" />
+            <img loading="lazy" className="mx-auto   md:m-0" src={aramex} alt="aramex" />
           </div>
           <p className="text-[#6C757D] text-[16px] py-5">
             {t("partners.prideStatement")}
@@ -94,7 +94,8 @@ export default function PartnersLandingPages() {
             <div className="flex flex-col justify-center items-center">
               <img loading="lazy" src={star} alt={t("partners.stat3Alt")} />
               <p className="text-[22px] md:text-[32px] font-extrabold text-[#4D1A2D]">
-                10+ {t("partners.stat3Years")}
+                {isArabic ? <>اكثر من 10 سنوات+</>:<>10+ {t("partners.stat3Years")}</>}
+                
               </p>
               <p className="text-[16px] md:text-[20px] font-medium text-[#949494]">
                 {t("partners.stat3Label")}

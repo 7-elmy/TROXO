@@ -9,7 +9,7 @@ export default function CustomerReviewsLandingPage() {
     <div 
     
     className="mx-auto max-w-screen-xl px-4 py-12 sm:px-6 lg:px-8 lg:py-16">
-        <p className="text-center x font-bold tracking-tight text-[#4D1A2D] sm:text-sm">{t("customer.testimonial")}</p>
+        <p className="text-center x font-bold tracking-tight text-[#4D1A2D] md:text-[16px] py-2">{t("customer.testimonial")}</p>
       <h2 className="text-center text-4xl font-bold tracking-tight text-[#4D1A2D] sm:text-5xl">
         {t("customer.customer")}
       </h2>
@@ -235,35 +235,7 @@ export default function CustomerReviewsLandingPage() {
         </blockquote>
       </div>
     </div>
-    {/* <div className={`customerreview md:h-[300px]  relative  my-3"  `}>
 
-        <motion.h2 
-         whileInView={{ opacity: 1, translateY: 0 }}
-         initial={{ opacity: 0, translateY: -150  }}
-         viewport={{ once: true, amount: 0.5 }}
-         transition={{ duration: 1 , delay:0.5, ease: "easeOut" }}
-        className='text-center font-extrabold text-[#4D1A2D] font-[Cairo] text-[32px] pt-4 md:pt-16'>Get started now and ship your orders with the best logistics service provider</motion.h2>
-
-        <motion.p 
-         whileInView={{ opacity: 1, translateY: 0 }}
-         initial={{ opacity: 0, translateY: -150  }}
-         viewport={{ once: true, amount: 0.5 }}
-         transition={{ duration: 1.5 , delay:0.7, ease: "easeOut" }}
-        className='text-center font-extrabold text-[#4D1A2D] font-[Cairo] text-[37px] pt-4' >
-        In the Arab world
-        </motion.p>
-        <div className='flex justify-center items-center mt-8 py-4'>
-        
-            <motion.button 
-             whileInView={{ opacity: 1, translateY: 0 , rotate:0 }}
-             initial={{ opacity: 0, translateY: -150  , rotate:45}}
-             viewport={{ once: true, amount: 0.5 }}
-             transition={{ duration: 1.5 , delay:0.7, ease: "easeOut" }}
-            className='w-[200px] py-2 rounded-md bg-[#4D1A2D] text-[white] '>Start For Free</motion.button>
-        </div>
-
-    </div>
-    <div className='h-4 bg-[#FC746C] text-center text-[10px] font-[Cairo] text-white'> Get started now and ship your orders with the best logistics service provider </div> */}
   </section>
   )
 }

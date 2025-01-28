@@ -10,6 +10,10 @@ import TermsConditions from './Components/Terms/Terms'
 import Privacy from './Components/Privacy/Privacy'
 import ContactUs from './Components/ContactUs/ContactUs'
 import Blog from './Components/Blog/Blog'
+import AuthLayout from './Layouts/Auth.layout'
+import Login from './Components/Login/Login'
+import Register from './Components/Register/Register'
+import AboutUs from './Components/About-Us/About-Us'
 
 function App() {
   const  [i18n]= useTranslation()
@@ -20,8 +24,12 @@ function App() {
     {path:"/privacy",element:<Privacy/>},
     {path:"/contact-us",element:<ContactUs/>},
     {path:"/blog",element:<Blog/>},
-
-    ]  }
+    {path:"/about-us",element:<AboutUs/>},
+    ]},
+    {path:"/auth/", element:<AuthLayout/> , children:[
+      {index:true , element:<Login/>},
+      {path:"register" , element:<Register/>},
+    ]}
   ])
 
   return (

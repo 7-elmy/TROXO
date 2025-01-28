@@ -6,11 +6,12 @@ export default function Card({image , time , mainTitle , desc , name}) {
     <article className="overflow-hidden rounded-lg shadow transition hover:shadow-lg">
   <img
     alt=""
-    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    src={image}
+    loading='lazy'
     className="h-56 w-full object-cover"
   />
 
-  <div className="bg-white p-4 sm:p-6">
+  {/* <div className="bg-white p-4 sm:p-6">
     <div className='flex items-center gap-5'>
     <span className='font-roboto text-[12px] font-bold leading-[18px]  text-[#333333]'>{name}</span>
     <time datetime="2022-10-10" className="block text-xs text-gray-500"> {time} </time>
@@ -24,7 +25,7 @@ export default function Card({image , time , mainTitle , desc , name}) {
     <p className="mt-2 line-clamp-3 text-sm/relaxed text-gray-500">
       {desc}
     </p>
-  </div>
+  </div> */}
 </article>
    </section>
   )
@@ -40,8 +41,9 @@ export  function  MainCard ({image , time , mainTitle , desc , name}){
             
                 <div className='col-span-12 md:col-span-6'>
                 <img
-    alt=""
-    src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80"
+    alt="blog"
+    src={image}
+    loading='lazy'
     className=" h-96 w-full object-cover rounded-xl"
   />
                 </div>

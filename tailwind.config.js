@@ -19,7 +19,11 @@ module.exports = {
     "./node_modules/@shadcn/ui/**/*.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        // roboto: ['Roboto', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
