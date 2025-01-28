@@ -3,14 +3,13 @@ import { motion } from "framer-motion";
 import image1 from "../../assets/MaskGroup.png";
 import image2 from "../../assets/Top.png";
 import image3 from "../../assets/shop-about.png";
-import image4 from "../../assets/iphone.png";
+import image4 from "../../assets/iPhone-about.png";
 import { FaShippingFast } from "react-icons/fa";
 import { useTranslation } from "react-i18next";
 import Ideal from "../../utils/Ideal";
 import ideal from "../../assets/ideal.svg";
 import message from "../../assets/message.svg";
 import last from "../../assets/Clip path group.svg";
-
 import smsa from "../../assets/partners/smsa.png.svg";
 import dhl from "../../assets/partners/DHL.svg";
 import aramex from "../../assets/partners/aramex.svg";
