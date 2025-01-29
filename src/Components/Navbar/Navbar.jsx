@@ -63,7 +63,7 @@ export default function Navbar() {
           </div>
 
           {/* Right Actions */}
-          <div dir="ltr" className={`hidden md:flex items-center gap-4 `}>
+          <div dir="ltr" className={`hidden md:flex ${isRTL? "flex-row-reverse":""} items-center gap-4 `}>
             <button
               onClick={toggleLanguage}
               className="px-5 py-2 flex items-center text-md font-medium text-[#4D1A2D] rounded-md transition hover:bg-[#4D1A2D] hover:text-white"
