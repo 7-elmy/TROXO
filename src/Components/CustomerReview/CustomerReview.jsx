@@ -15,7 +15,7 @@ export default function CustomerReviewsLandingPage() {
       </h2>
   
       <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
-        <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
             <img
               alt=""
@@ -88,7 +88,7 @@ export default function CustomerReviewsLandingPage() {
           </p>
         </blockquote>
   
-        <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
             <img
               alt=""
@@ -161,7 +161,7 @@ export default function CustomerReviewsLandingPage() {
           </p>
         </blockquote>
   
-        <blockquote className="rounded-lg bg-gray-50 p-6 shadow-sm sm:p-8">
+        <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
             <img
               alt=""
