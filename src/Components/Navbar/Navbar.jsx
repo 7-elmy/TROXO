@@ -72,13 +72,13 @@ export default function Navbar() {
               <span className="ml-2">{t("navbar.language")}</span>
             </button>
             <Link
-              to="/login"
+              to="/auth/"
               className="px-5 py-2 text-sm font-medium text-[#4D1A2D] border border-[#4D1A2D] rounded-md transition hover:bg-[#4D1A2D] hover:text-white"
             >
               {t("navbar.login")}
             </Link>
             <Link
-              to="/signup"
+              to="/auth/register"
               className="px-5 py-2 text-sm font-medium text-white bg-[#4D1A2D] rounded-md shadow-md transition hover:bg-[#4D1A2D]"
             >
               {t("navbar.signup")}
@@ -153,7 +153,7 @@ export default function Navbar() {
               </li>
               <li className="mt-4">
                 <Link
-                  to="/login"
+                  to="/auth/"
                   className="block w-full text-center px-5 py-2 text-sm font-medium text-[#4D1A2D] border border-[#4D1A2D] rounded-md transition hover:bg-[#4D1A2D] hover:text-white"
                 >
                   {t("navbar.login")}
@@ -161,7 +161,7 @@ export default function Navbar() {
               </li>
               <li>
                 <Link
-                  to="/signup"
+                  to="/auth/register"
                   className="block w-full text-center px-5 py-2 text-sm font-medium text-white bg-[#4D1A2D] rounded-md shadow-md transition hover:bg-[#4D1A2D]"
                 >
                   {t("navbar.signup")}
