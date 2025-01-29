@@ -79,7 +79,7 @@ export default function Login() {
    
 </div>
 
-<p className="font-roboto text-[16px] my-6 font-normal leading-[27.2px] text-center text-gray-300 ">Don't have an account?<Link to="/auth/signup">Signup Free!</Link> </p>
+<p className="font-roboto text-[16px] my-6 font-normal leading-[27.2px] text-center text-gray-300 ">Don't have an account?<Link to="/auth/register">Signup Free!</Link> </p>
         </div>
       </div>
     </section>
