@@ -181,7 +181,7 @@ export default function WorkLandingPage() {
             className="rounded-lg p-6 shadow-sm sm:p-8"
           >
             <div className="flex items-center justify-center gap-4">
-              <img alt={t("work.step2Alt")} src={two} className="max-w-full" />
+              <img loading="lazy" alt={t("work.step2Alt")} src={two} className="max-w-full" />
             </div>
             <p className="mt-4 text-[#4D1A2D] font-bold text-[21px] text-center">
               {t("work.step2.title")}
@@ -200,7 +200,7 @@ export default function WorkLandingPage() {
             className="rounded-lg p-6 shadow-sm sm:p-8"
           >
             <div className="flex items-center justify-center gap-4">
-              <img alt={t("work.step1Alt")} src={one} className="max-w-full" />
+              <img loading="lazy" alt={t("work.step1Alt")} src={one} className="max-w-full" />
             </div>
             <p className="mt-4 text-[#4D1A2D] font-bold text-[21px] text-center">
               {t("work.step1.title")}

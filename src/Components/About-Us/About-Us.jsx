@@ -59,7 +59,7 @@ export default function AboutUs() {
           </div>
 
           <div>
-            <img src={image2} alt="" />
+            <img src={image2} loading="lazy" alt="" />
           </div>
 
           <div className="grid grid-cols-12 gap-8    ">

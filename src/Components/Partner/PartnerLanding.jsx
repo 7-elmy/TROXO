@@ -8,7 +8,7 @@ import map2 from "../../assets/partners/Frame.svg";
 import smsa from "../../assets/partners/smsa.png.svg";
 import dhl from "../../assets/partners/DHL.svg";
 import aramex from "../../assets/partners/aramex.svg";
-import container2 from "../../assets/partners/illustration.jpg";
+import container2 from "../../assets/partners/illustration1.jpg";
 import men from "../../assets/partners/mens.jpg";
 import circle from "../../assets/partners/circle.jpg";
 import star from "../../assets/partners/star.jpg";

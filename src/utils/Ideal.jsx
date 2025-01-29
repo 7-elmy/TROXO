@@ -20,7 +20,7 @@ export default function Ideal({ mainName, mainText, mainImage, dir, number , num
             transition={{ duration: 1.5, ease: "easeOut" }}
             className="col-span-12 flex justify-center items-center md:col-span-6"
           >
-            <img src={mainImage} alt={mainName} />
+            <img src={mainImage} loading="lazy" alt={mainName} />
           </motion.div>
           <motion.div
             whileInView={{ opacity: 1, translateX: 0 }}
@@ -33,11 +33,12 @@ export default function Ideal({ mainName, mainText, mainImage, dir, number , num
               <div className="relative flex flex-col justify-center items-center my-3">
                 <img
                   src={ear}
+                  loading="lazy"
                   alt="ear"
                   className={`absolute hidden md:block -top-2 left-[${number}%] md:left-[${number1}%]`}
                 />
                 <h2 className="font-semibold text-[50px] ">{mainName}</h2>
-                <img src={underline} alt="underline" />
+                <img src={underline} loading="lazy" alt="underline" />
               </div>
               <p className="text-center text-[21px] font-[cairo]">{mainText}</p>
             </div>
@@ -56,11 +57,12 @@ export default function Ideal({ mainName, mainText, mainImage, dir, number , num
               <div className="relative flex flex-col justify-center items-center my-3">
                 <img
                   src={ear}
+                  loading="lazy"
                   alt="ear"
                   className={`absolute hidden md:block -top-2 left-[${number}%] md:left-[25%]`}
                 />
                 <h2 className="font-semibold text-[50px]">{mainName}</h2>
-                <img src={underline} alt="underline" />
+                <img src={underline} alt="underline" loading="lazy"/>
               </div>
               <p className="text-center text-[21px] font-[cairo]">{mainText}</p>
             </div>
@@ -72,7 +74,7 @@ export default function Ideal({ mainName, mainText, mainImage, dir, number , num
             transition={{ duration: 1.5, ease: "easeOut" }}
             className="col-span-12 flex justify-center items-center md:col-span-6"
           >
-            <img src={mainImage} alt={mainName} />
+            <img src={mainImage} loading="lazy" alt={mainName} />
           </motion.div>
         </>
       )}

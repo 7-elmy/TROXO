@@ -29,6 +29,7 @@ export default function About() {
     <img
       src={i18n.language === "ar" ? aboutAr : aboutEn}
       alt="experience"
+      loading='lazy'
     />
   </motion.div>
 
