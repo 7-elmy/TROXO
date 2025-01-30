@@ -302,6 +302,21 @@
   "view":"View All",
   "recent":"Our Recent Post",
   "popular":"Popular Post"
+},
+"footer":{
+  "title":"We lead fleets using smarter technology to anything from anywhere in your city to local Sa’adiya provinces or to the international world.",
+  "social":"Follow Postgait on Social Media:",
+  "services":"Our Services",
+  "home": "Home",
+                  "about":"About Us",
+                  "privacy": "Privacy",
+                  "terms": "Terms & Conditions",
+                  "blogs": "Blogs",
+                  "contact":"contact us",
+                  "FAQs":"FAQs",
+                  "explore":"Explore More"
+                  
+
 }
 
                 
