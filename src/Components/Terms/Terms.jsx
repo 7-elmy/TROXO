@@ -60,7 +60,7 @@ export default function TermsConditions() {
       (key, index) => {
         const section = t(`terms.sections.${key}`, { returnObjects: true });
         return (
-          <div key={index} className="mb-8">
+          <div key={index} className="mb-8 px-4">
             {/* Section Title */}
             <p
               className={`font-[Barlow] fint-bold text-[25px] text-[#FC746C] ${

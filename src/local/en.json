@@ -151,111 +151,100 @@
                 "title": "Welcome to Our Privacy Policy"
               },
               "sections": {
-                "introduction": {
-                  "title": "Introduction:",
-                  "content": "Our Privacy Policy will help you understand what information we collect at Postgait and how Postgait uses it. Reference to the company in this Privacy Policy is inclusive of we , our or us, and at all times refers to Postgait, the Company which provides the Services. When we talk about 'Services' in this Privacy Policy, we are referring to our online platform, for providing Secondment Services. Our Services are currently available for use via a web browser or applications specific to your desktop or mobile device."
-                },
-                "definitions": {
-                  "title": "Information we collect and receive:",
-                  "content": "The Company may also collect and receive the following information:",
-                  "list": [
-                    "Account Creation Information: Users provide information such as an e-mail address and password to create and account",
-                    "Billing and other Information: Our Corporate affiliates and our third-party payment processors may collect and store billing address and credit/debit card information, or online/net banking information on our behalf or we may do this ourself.",
-                    "Usage Information: This is information about how you are accessing and using the Services, which may include administrative and support communications with us and information about people, content, links you interact with and what third party integrations you use (if any).",
-                    "Contact Information: With your permission contact information is collected, when you use/visit the Mobile App or web browser.",
-                    "Log Data: Our servers automatically record information, including information that your browser sends whenever you visit a website or your mobile app sends whenever you are using it. This log data may include without limitation your internet protocol address, your browser type and settings, the date and time of your use, information about your browser configuration and plug- ins, language preferences, and cookie data.",
-                    "Device Information: We may collect information about the device you are using, including what type of device it is, what operating system you are using, device settings, application IDs, unique device identifiers, and crash data. Whether we collect some or all of this information often depends on what type of device you are using and its settings.",
-                    "Geo-location information: Precise GPS location from mobile devices is collected only with your permission. Wi-Fi and IP addresses received from your browser or device may be used to determine approximate location.",
-                    "Integrations: If you integrate with a third-party service provider, we will integrate that service to ours. The third-party provider may share certain information about your account with the company. However, we do not receive or store your passwords for any of these third-party providers.",
-                    "Third party data: the company may receive information from affiliates in our corporate group, our partners, or others that we use to make our own information better or more useful. This might be aggregate level information, including without limitation assimilation of specific IP addresses with specific zip codes."
-                  ]
-                },
-                "services": {
-                  "title": "Our Cookie Policy:",
-                  "content": "The company used cookies and similar technologies to record log data. We use both session based and persistent cookies. Cookies are small text files sent by us to your computer and from your computer or mobile device to us each time you visit our website or use our application. They are unique to your account or your browser. Session based cookies last only while your browser is open and are automatically deleted when you close your browser. Persistent cookies last until you or your browser delete them or until they expire. Some cookies are associates with your account and personal information in order to remember that you are logged in. Other cookies are not tied to your account but are unique and allow us to carry our site/application analytics and customization among other similar things. The company sets and accesses our own cookies on the domains operated by the company and its corporate affiliates. We do not currently recognize or respond to browser initiated do not track signals due to lack of consistence in industry standard compliance."
-                },
-                "terms_applicable": {
-                  "title": "How We Use Your Information:",
-                  "customer":"Customer Data:",
-                  "content": "the company may access and use Customer Data as reasonably necessary and in accordance with Customer's instructions",
-                  "list": [
-                        "to prevent or address Services, security, technical issues or at a Customer's request in connection with customer support matters;",
-                        "as required by law;",
-                        "as set forth in our contract with the Customer or as expressly permitted in writing by the Customer."
-                  ],
-                  "info":"Other information:"
-                 
-                
-                },
-                "user_info": {
-                    "kind":"We use other kinds of information",
-                    "list": [
-                            "To understand and improve our Services;",
-                            "To communicate with you by Responding to your requests. If you contact us with a problem or question, we will use your information to respond. Sending e-mails and messages. We may send you Services related and administrative e-mails and messages. We may also contact you to inform you about changes in our Services, our Services offerings, and important services related notices, including without limitation security and fraud notices. These e-mails and messages are considered part of the Services you may not opt of them. In addition, we sometimes send e-mails about new Services features, or other news about the company. You may opt out of these at any time."
-                  ]
-                },
-                "users": {
-                  "customer":"Billing and Account Management:",
-                  "content": "We use account data to administer accounts and keep track of billing and payments."
-                },
-                "content": {
-                  "customer": "Communicating and marketing:",
-                  "content":"We often need to contact you for invoicing, account management and similar reasons. We may also use your contact information for our own marketing or advertising purposes. You may opt out these at any time."
-                },
-                "content1": {
-                  "customer": "Investigation and Prevention of abuse and fraud:",
-                  "content": "The company is committed to keep the information provided by you secure and also prevent abuse and fraud. This policy is not intended to place any limitation on what we do with data that is aggregated and/or de-identified so it is no longer associated with identifiable user or Customer of the Services."
-                },
-                "website_use": {
-                  "title": "Sharing & Disclosure:",
-                  "content": "There are times when information described in this Privacy Policy may be shared by the company. This section describes only how the company may share such information. the company does not control how Customers, or their third parties choose to share and disclose Customer Data.",
-                  "content2":"Customer Data:",
-                  "kind":"the company may share Customer Data:",
-                "list": [
-                    "With Third Party Service Providers and Agents. We may engage third party companies and individuals to process Customer Data. ",
-                    "With affiliates. We may engage affiliates in our corporate group to process Customer Data.",
-                    "With third party integrations. the company may act on our Customer's behalf share Customer Data with the provider of an integration added by Customer or the company. The company is not responsible for how the provider of an integration may collect use, and share Customer Data."
-                  ]
-                },
+    "introduction": {
+        "title": "Introduction:",
+        "content": "Our Privacy Policy describes the ways in which we collect, store, use, transfer, and protect your personal data, and it is important for you to review it. By 'personal data,' we mean any information, regardless of its source or form, that can specifically identify an individual or allow for direct or indirect identification of an individual, including names, personal ID numbers, addresses, contact numbers, license numbers, records, personal assets, bank account numbers, credit card numbers, photos, videos of individuals, and any other personal information.",
+        "contentlite": "We do not consider anonymous information to be personal data since it cannot be used to identify a specific individual. We collect your personal data when you use our website (including, but not limited to, when you contact our customer support team via phone or email). By providing us with your personal data, you give us your explicit consent to process it in accordance with the terms of our Privacy Policy.",
+        "contentlite1": "We may amend our Privacy Policy at any time by posting an updated version on the website. This version will become effective at the time we publish it, and your continued use of the website after this publication will constitute your explicit consent to continue processing your personal data in accordance with the terms of the updated Privacy Policy.",
+        "contentlite2": "We encourage you to regularly review the website for any announcements regarding amendments to our Privacy Policy."
+    },
+    "website_use": {
+        "title": "Information Collection:",
+        "customer": "A. Information You Provide to Us",
+        "in": "We collect information that you provide to us directly, including:",
+        "list": [
+            "*Personal Details*: Name, email address, phone number, order address.",
+            "*Financial Information*: Bank name, IBAN, customer address, commercial registration number (CR), value-added tax number (VAT).",
+            "*Credentials*: SMS gateway, sales channels, delivery company, email, ERP system, warehouse management system (WMS), refresh tokens."
+        ]
+    },
+    "website_useB": {
+        "customer": "B. Information About You",
+        "in": "We may collect additional personal data, such as:",
+        "list": [
+            "Data provided during registration or when verifying your identity (such as passport or personal ID) when necessary to use certain services or to comply with legal requirements.",
+            "Feedback, survey results, or your communications with customer support."
+        ]
+    },
+    "website_usec": {
+        "customer": "C. Information We Collect Automatically",
+        "in": "Automatically collected data includes:",
+        "list": [
+            "*Log Files*: IP address, browser type, Internet Service Provider (ISP), date and time, navigation details.",
+            "*Cookies*: Small files stored on your device to enhance your experience on our website. These files help us analyze website traffic, customize content, and remember preferences. You can manage cookie settings at any time by adjusting your browser settings."
+        ]
+    },
+    "website_used": {
+        "customer": "D. Information We Collect from Social Media and Other Content Platforms",
+        "in": "We may collect publicly available information when you interact with our content on social media platforms or other platforms."
+    },
+    "termination": {
+        "title": "Use of Information:",
+        "customer": "We use the collected information for the following purposes:",
+        "list": [
+            "*Completing Transactions and Providing Services* to ensure smooth execution of transactions and proper account management.",
+            "*Responding to Inquiries and Providing Customer Service* to assist users with any issues, questions, or concerns they may have.",
+            "*Providing Users with Service and Event Updates*.",
+            "*Sending Marketing Communications* with your consent.",
+            "*Improving Services* by analyzing data and enhancing user experience.",
+            "*Ensuring Security and Legal Compliance* to protect against fraud."
+        ]
+    },
+    "termination2": {
+        "title": "Processing of Information",
+        "customer": "Principles",
+        "in": "We process personal data in accordance with the general principles of data protection and are committed to the following:",
+        "list": [
+            "*Lawfulness, Fairness, and Transparency*.",
+            "*Purpose Limitation* by processing data only for specified purposes.",
+            "*Data Minimization* by collecting only the minimum necessary personal data.",
+            "*Storage Limitation* by not retaining data longer than necessary.",
+            "*Accuracy* to ensure data is up-to-date.",
+            "*Integrity and Confidentiality* to ensure information security."
+        ]
+    },
+    "secure": {
+        "title": "How We Share Your Information:",
+        "customer": "We may share your information with:",
+        "list": [
+            "*Our Subsidiaries and Affiliates*.",
+            "*Service Providers* who provide services on our behalf such as payments, storage, and security.",
+            "*Legal Entities* when necessary.",
+            "*In Case of Mergers and Acquisitions*.",
+            "*Sharing Aggregated or Anonymized Information* for research and analysis purposes."
+        ]
+    },
+    "Limitation": {
+        "title": "Information Storage:",
+        "content": "We store data on secure servers and take the necessary measures to protect your data in accordance with local and international laws."
+    },
+    "Changes": {
+        "title": "Your Rights and Choices:",
+        "customer": "You have the right to:",
+        "list": [
+            "*Access Your Information*.",
+            "*Correct Any Errors*.",
+            "*Request the Deletion of Your Information*.",
+            "*Transfer Your Data to Another Entity*.",
+            "*Object to Processing*."
+        ]
+    },
+    "Contact3": {
+        "title": "Contact Us:",
+        "content": "If you have any questions or inquiries, please contact us via the following email: support@gotroxo.com"
+    }
+}
 
-                "termination": {
-                 "customer":"Other Information:",
-                 "in":"The company may share other information as follows:",
-                "list": [
-                    "About you. There may be times when you contact the company to help resolve an issue specific to a governmental or official or legal process. In order to help resolve the issue we may share your information with the concerned government or official body.",
-                    "With third party service providers and agents. We may engage third party companies or individuals, such as third-party payment processors, to process information on our behalf.",
-                    "With affiliates. We may engage affiliates in our corporate group to process Other Information."
-                  ]
-                },
-                "termination2": {
-                 "customer":"Other Types of Disclosure:",
-                 "in":"The company may share or disclose Customer Data and Other information as follows:",
-                "list": [
-                  "During changes to our business structure: If we engage in a merger, acquisition, bankruptcy, dissolution, reorganization, sale of some of the company's assets, financing acquisition or of all or a portion of our business, a similar transaction or proceeding or steps in contemplation of these activities.",
-                  "Statutory Compliance: To comply with legal or regulatory requirements and to respond to lawful requests, court orders or legal processes.",
-                  "To enforce our rights to prevent fraud and for safety: To protect and defend the rights, property, or safety of us or third parties, including enforcing contracts or policies, or in connection with investigating and preventing fraud."
-                  ],
-                  "footer":"The company may disclose or use aggregate or de-identified information for any purpose, it deems appropriate."
-                },
-                "secure": {
-                    "title": "Security:",
-                    "content":"The company is serious about its security, and takes various steps to protect information you provide to us, from loss, misuse and unauthorized access or disclosure. These steps take into account the sensitivity of the information we collect, process and store, and the current state of technology."
-                  ,"content2":"No Warranty:",
-                  "nd":"You understand that the company does not provide any warranty, guarantee or representation of any kind concerning our ability to control, collect, correct, access, process, use, store, protect or transfer any personal information or concerning the existence or effectiveness of any security measures undertaken by Us. You agree that the company will not be liable for any claims, losses, or damages of any kind whatsoever which may result from the access, disclosure, use or modification by any party not authorized or authorized by us or the introduction of malware (including without limitation of viruses and worms) or other harmful elements to the system and their possible effects on personal information contained on the website or the Mobile App. By accessing the website or the Mobile App you acknowledge and understand to assume these risks."
-                },
-                "Limitation": {
-                    "title": "Limitation of Liability:",
-                    "content":"In no event will the company, its affiliates, partners and their respective employees, officers, directors or insurers be liable to you or to any other person for any costs, damages (including any personal, exemplary, incidental, special, indirect or consequential damages) or liability of any nature, arising or resulting from the collection, use, transfer, processing or storage of personal information obtained by Us and resulting from your access to and use of the Services through a Web Browser or a Mobile App"
-                  },
-                "Changes": {
-                    "title": "Changes to this Privacy Policy:",
-                    "content": "We may change this policy from time to time, and which may be updated on our website or application at our discretion. If you continue to use the Services after those changes are in effect, you agree to the revised changes."
-                  },
-                "Contact3": {
-                    "title": "Contact The Company:",
-                    "content": "Please feel free to contact us, if you have any questions about the company Privacy Policy or practices. You may contact us at support@postgait.com."
-                  }
-              }
             },
              "contactUs": {
                   "title": "Get in Touch",
