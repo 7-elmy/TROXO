@@ -4,6 +4,7 @@ import { CiLocationOn } from 'react-icons/ci';
 import { useTranslation } from 'react-i18next';
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaXTwitter } from "react-icons/fa6";
+import { Link, Links } from 'react-router-dom';
 export default function Footer() {
   const { t, i18n } = useTranslation();
   const isArabic = i18n.language === "ar";
@@ -81,9 +82,20 @@ export default function Footer() {
               <ul className="mt-8 space-y-4 text-sm">
                 {["home", "about", "contact", "blogs"].map((item) => (
                   <li key={item}>
-                    <a className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                    {item =="about"? <Link to={`/about-us`} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
                       {t(`footer.${item}`)}
-                    </a>
+                    </Link> :""}
+                    {item =="home"? <Link to={`/${item}`} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link> :""}
+                    {item =="contact"? <Link to={"/contact-us"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link> :""}
+                    {item =="blogs"? <Link to={"/blog"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link> :""}
+
+                   
                   </li>
                 ))}
               </ul>
@@ -96,9 +108,18 @@ export default function Footer() {
               <ul className="mt-8 space-y-4 text-sm">
                 {["terms", "privacy", "FAQs"].map((item) => (
                   <li key={item}>
-                    <a className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                    {item == "terms" ? <Link to={"/term&Condition"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
                       {t(`footer.${item}`)}
-                    </a>
+                    </Link>:""}
+                    {item == "FAQs" ? <Link to={"/"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link>:""}
+                    {item == "privacy" ? <Link to={"/privacy"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link>:""}
+                    {/* <Link to={`/${item}`} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                      {t(`footer.${item}`)}
+                    </Link> */}
                   </li>
                 ))}
               </ul>
@@ -113,7 +134,7 @@ export default function Footer() {
                   <CiLocationOn className="text-lg text-[#4D1A2D]" />
                   <address className="not-italic text-[#461A2D] font-[Poppins]">
                     
-                    {isArabic ?"جدة، المملكة العربية السعودية":"Jeddah, Saudi Arabia"}
+                    {isArabic ?" المملكة العربية السعودية":" Saudi Arabia"}
                   </address>
                 </li>
                 <li>

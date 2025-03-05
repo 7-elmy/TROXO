@@ -8,7 +8,7 @@ import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [isNavVisible, setIsNavVisible] = useState(false);
-  const { t, i18n } = useTranslation(); // Include 't' for translation
+  const { t, i18n } = useTranslation(); 
   const isRTL = i18n.language === "ar";
 
   const toggleNav = () => setIsNavVisible((prev) => !prev);

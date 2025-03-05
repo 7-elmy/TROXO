@@ -20,6 +20,7 @@ function App() {
   let router = createBrowserRouter([
     {path:"/" ,element:<MainLayout/> , children:[
     {index:true,element:<Home/>},
+    {path:"home",element:<Home/>},
     {path:"/term&Condition",element:<TermsConditions/>},
     {path:"/privacy",element:<Privacy/>},
     {path:"/contact-us",element:<ContactUs/>},
