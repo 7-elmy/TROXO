@@ -2,11 +2,11 @@ import React from 'react'
 
 import aboutAr from "../../assets/aboutar.png"
 import aboutEn from "../../assets/abouten.png"
-
+import { FaXTwitter } from "react-icons/fa6";
 import {motion} from "framer-motion"
 import { useTranslation } from 'react-i18next'
-import { FaFacebook } from 'react-icons/fa'
-import { BiLogoFacebook, BiLogoInstagram, BiLogoTwitter } from 'react-icons/bi'
+
+import {  BiLogoInstagram} from 'react-icons/bi'
 export default function About() {
     const [t , i18n ]= useTranslation()
   return (
@@ -45,7 +45,7 @@ export default function About() {
     transition={{ duration: 1.5, ease: "easeOut" }}
     className="col-span-12 md:col-span-6 pt-1 p-5 md:p-0"
   >
-    <div className="flex items-center gap-5">
+    {/* <div className="flex items-center gap-5">
       <hr className="h-[2px] bg-[#FC746C] w-[80px]" />
       <p
         className={`font-[Roboto] text-[#FC746C] text-[24px] ${
@@ -54,7 +54,7 @@ export default function About() {
       >
         {t("about.about_us")}
       </p>
-    </div>
+    </div> */}
 
     <div>
       <p
@@ -104,21 +104,42 @@ export default function About() {
         </li>
           </ul>
         </>:<>
-        
-      <p
-        className={`text-[#949494] font-[Roboto] text-[18px] my-5 ${
+        <ul className='test'>
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
           i18n.language === "ar" ? "text-right" : "text-left"
-        }`}
-      >
-        {t("about.discription1")}
-      </p>
-      <p
-        className={`text-[#949494] font-[Roboto] text-[18px]  mt-8 ${
-          i18n.language === "ar" ? "text-right w-[70%]" : "text-left"
-        }`}
-      >
-       {t("about.discription2")}
-      </p>
+        }`}>
+           Easy-to-use platform.
+        </li>
+       
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
+          i18n.language === "ar" ? "text-right" : "text-left"
+        }`}>
+        Connects you with multiple shipping companies.
+
+        </li>
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
+          i18n.language === "ar" ? "text-right" : "text-left"
+        }`}>
+     Ability to choose the most suitable shipping companies. 
+
+        </li>
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
+          i18n.language === "ar" ? "text-right" : "text-left"
+        }`}>
+        Tools to simplify managing your store.
+        </li>
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
+          i18n.language === "ar" ? "text-right" : "text-left"
+        }`}>
+      Freedom to focus on developing your store.
+        </li>
+            <li className={`text-[#000] font-[Roboto] text-[18px] my-5 ${
+          i18n.language === "ar" ? "text-right" : "text-left"
+        }`}>
+      Continuous customer service.
+        </li>
+          </ul>
+  
         </>}
 
 
@@ -131,41 +152,19 @@ export default function About() {
         >
           {/* Social Icons */}
           <li className='flex justify-center items-center  border rounded-full w-[40px] h-[40px]'>
-            <a
+          <a
               href="#"
               rel="noreferrer"
               target="_blank"
-              className="text-[#949494] transition  hover:text-[#461A2D]"
+              className="text-[#461A2D] transition hover:text-[#461A2D]"
             >
               <span className="sr-only">Twitter</span>
-              <BiLogoTwitter className="size-6"/>
-             
-            </a>
-          </li>
-
-          <li className='flex justify-center items-center  border rounded-full w-[40px] h-[40px]'>
-            <a
-              href="#"
-              rel="noreferrer"
-              target="_blank"
-              className="text-[#949494] transition hover:text-[#461A2D]"
-            >
-              <span className="sr-only">Facebook</span>
-             
-              <BiLogoFacebook className="size-6"/>
-              {/* <svg
-                className="size-6"
-                fill="currentColor"
-                viewBox="0 0 24 24"
-                aria-hidden="true"
-              >
-                
-              </svg> */}
+              <FaXTwitter className="text-[#949494] transition hover:text-[#461A2D]"  />
             </a>
           </li>
           <li className='flex justify-center items-center  border rounded-full w-[40px] h-[40px]'>
             <a
-              href="#"
+              href="https://www.instagram.com/gotroxo"
               rel="noreferrer"
               target="_blank"
               className="text-[#949494] transition hover:text-[#461A2D]"
@@ -174,6 +173,7 @@ export default function About() {
               <BiLogoInstagram  className="size-6"/>
            
             </a>
+          
           </li>
          
         </ul>
