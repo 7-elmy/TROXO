@@ -15,13 +15,13 @@ export default function Privacy() {
     const domainRegex = /\bGOTROXO\b/gi;
     const urlRegex = /https:\/\/gotroxo\.com\b/gi;
     const staticUrl = '<a href="https://gotroxo.com" target="_blank" rel="noopener noreferrer" class="text-red-500 underline">https://gotroxo.com</a>';
-    const staticDomain = '<span class="text-red-500">GOTROXO</span>';
+    const staticDomain = '<span class="text-red-500">gotroxo.com</span>';
     // Replace patterns with colored spans or anchor tags
     return text
       .replace(emailRegex, '<span class="text-red-500">$1</span>')
       // .replace(domainRegex, '<span class="text-red-500">$&</span>')  // Change color of "GOTROXO"
       .replaceAll("https://gotroxo.com", staticUrl)
-      .replaceAll("GOTROXO", staticDomain);
+      .replaceAll("GOTROXO.COM", staticDomain);
   };
   
  
