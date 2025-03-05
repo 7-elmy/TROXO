@@ -5,19 +5,28 @@ export default function Privacy() {
   const { t, i18n } = useTranslation();
   const isArabic = i18n.language === "ar";
 
-  // Function to highlight emails, domain, and URLs
+  
+  
   const highlightContent = (text) => {
+    if (!text) return ""; // Return empty string if text is null or undefined
+  
     // Regex patterns
     const emailRegex = /([a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,})/g;
-    const domainRegex = /\bGOTROXO\.COM\b/gi;
+    const domainRegex = /\bGOTROXO\b/gi;
     const urlRegex = /https:\/\/gotroxo\.com\b/gi;
-
-    // Replace patterns with colored spans
+    const staticUrl = '<a href="https://gotroxo.com" target="_blank" rel="noopener noreferrer" class="text-red-500 underline">https://gotroxo.com</a>';
+    const staticDomain = '<span class="text-red-500">GOTROXO</span>';
+    // Replace patterns with colored spans or anchor tags
     return text
       .replace(emailRegex, '<span class="text-red-500">$1</span>')
-      .replace(domainRegex, '<span class="text-red-500">$&</span>')
-      .replace(urlRegex, '<span class="text-red-500">$&</span>');
+      // .replace(domainRegex, '<span class="text-red-500">$&</span>')  // Change color of "GOTROXO"
+      .replaceAll("https://gotroxo.com", staticUrl)
+      .replaceAll("GOTROXO", staticDomain);
   };
+  
+ 
+  
+  
 
   return (
     <div
@@ -46,13 +55,17 @@ export default function Privacy() {
               return (
                 <div key={index} className="mb-8 px-4">
                   {/* Section Title */}
-                  <p
-                    className={`font-[Barlow] font-bold text-[18px] my-3 text-[#000] ${
-                      isArabic ? "text-right" : "text-left"
-                    }`}
-                  >
-                    {section.test}
-                  </p>
+                 
+
+                    <p
+  className={`font-[Barlow] font-bold text-[18px] my-3 text-[#000000] ${
+    isArabic ? "text-right" : "text-left"
+  }`}
+  dangerouslySetInnerHTML={{
+    __html: highlightContent(section.test),
+  }}
+/>
+                 
                   <p
                     className={`font-[Barlow] font-bold text-[25px] text-[#FC746C] ${
                       isArabic ? "text-right" : "text-left"
