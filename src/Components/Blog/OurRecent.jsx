@@ -54,13 +54,7 @@ export default function OurRecent() {
                         mainTitle={"Best Website to research for your  next project"} 
                         desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
                     </div>
-                    {/* <div className='col-span-12 md:col-span-3'>
-                        <Card
-                        name={"Travel"}
-                        time={"11 March 2023"}
-                        mainTitle={"Best Website to research for your  next project"} 
-                        desc={"Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs"}/>
-                    </div> */}
+                 
                   
                 </div>
           

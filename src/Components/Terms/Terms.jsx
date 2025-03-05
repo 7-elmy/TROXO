@@ -6,11 +6,11 @@ export default function TermsConditions() {
   const isArabic = i18n.language === "ar";
 
   return (
-    <div dir={`${isArabic ? "rtl" : "ltr"}`} className={`term pt-5 md:pb-12 ${isArabic ? "rtl" : "ltr"}`}>
+    <div dir={`${isArabic ? "rtl" : "ltr"}`} className={` pt-5 md:pb-12 ${isArabic ? "rtl" : "ltr"}`}>
       {/* Header Section */}
       <div className="md:h-[450px] py-12 md:bg-transparent flex justify-center items-center">
         <p
-          className={`text-white text-center p-2  md:p-0 font-[Segoe UI] font-semibold text-[30px] md:text-[37px] mb-8 md:mb-0 ${
+          className={`text-[#4D1A2D] text-center p-2  md:p-0 font-[Segoe UI] font-semibold text-[30px] md:text-[37px] mb-8 md:mb-0 ${
             isArabic ? "ps-8 md:ps-0 md:rtl:text-right text-center" : " ms-4 md:ms-0 text-center md:ltr:text-left"
           }`}
         >
@@ -23,36 +23,7 @@ export default function TermsConditions() {
 
       </div>
 
-      {/* Content Section */}
-      {/* <div className=" w-full py-5 flex justify-center items-center">
-        <div className="w-full bg-white rounded-md md:p-4">
-          {Object.keys(t("terms.sections", { returnObjects: true })).map(
-            (key, index) => {
-              const section = t(`terms.sections.${key}`, { returnObjects: true });
-              return (
-                <div key={index}>
-                  
-                  <p
-                    className={`font-[Barlow] font-bold text-[25px] text-[#FC746C] ${
-                      isArabic ? "rtl:text-right" : "ltr:text-left"
-                    }`}
-                  >
-                    {section.title}
-                  </p>
-                
-                  <p
-                    className={`text-[#000000] leading-[50px] font-medium px-5 ${
-                      isArabic ? "rtl:text-right" : "ltr:text-left"
-                    }`}
-                  >
-                    {section.content}
-                  </p>
-                </div>
-              );
-            }
-          )}
-        </div>
-      </div> */}
+     
 
 <div className="w-full py-5 flex justify-center items-center">
   <div className="w-full bg-white rounded-md md:p-4">

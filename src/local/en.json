@@ -85,7 +85,7 @@
         },
         "terms": {
               "header": {
-                "title": "Welcome to Our Terms and Conditions"
+                "title": " Our Terms and Conditions"
               },
               "sections": {
                 "introduction": {
@@ -148,7 +148,7 @@
             },
         "privacy": {
               "header": {
-                "title": "Welcome to Our Privacy Policy"
+                "title": "Our Privacy Policy"
               },
               "sections": {
     "introduction": {

@@ -90,7 +90,7 @@
         
         "terms": {
             "header": {
-              "title": "مرحباً بكم في شروط وأحكام موقعنا"
+              "title": " الشروط والأحكام "
             },
             "sections": {
               "introduction": {
@@ -153,7 +153,7 @@
         
             "privacy": {
                 "header": {
-                    "title": "مرحبًا بكم في سياسة الخصوصية الخاصة بنا"
+                    "title": " سياسة الخصوصية "
                   },
                   "sections": {
                     "introduction": {

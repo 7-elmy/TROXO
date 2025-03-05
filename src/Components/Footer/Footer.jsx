@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/logo.png';
+import logo from "../../assets/logo1.png";
 import { CiLocationOn } from 'react-icons/ci';
 import { useTranslation } from 'react-i18next';
 import { FaWhatsapp } from "react-icons/fa6";
@@ -10,12 +10,12 @@ export default function Footer() {
 
   return (
     <footer dir={isArabic ? "rtl" : "ltr"} className="bg-[#FFDDDD]">
-      <div className="mx-auto max-w-screen-xl px-4 pb-6 pt-16 lg:px-4 lg:pt-24">
+      <div className="mx-auto max-w-screen-xl px-4 pb-6  lg:px-4 ">
         <div className={`grid grid-cols-1 gap-8 lg:grid-cols-3 ${isArabic ? "text-right" : "text-left"}`}>
           <div>
-            <div className={`flex ${!isArabic ? "justify-start" : "justify-start"}`}>
-              <img loading="lazy" src={logo} alt="postgait" />
-            </div>
+            {/* <div className={`flex  bg-red-500 ${!isArabic ? "justify-start " : "justify-start"}`}> */}
+              <img loading="lazy" src={logo} className='bg-transparent w-[150px] h-[150px]' alt="troxo" />
+            {/* </div> */}
 
             <p className="mt-6 font-[Poppins] max-w-md leading-relaxed text-[#461A2D] sm:max-w-xs">
               {t('footer.title')}
@@ -73,7 +73,7 @@ export default function Footer() {
         </ul>
           </div>
 
-          <div className={`grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2 ${isArabic ? "text-right" : "text-left"}`}>
+          <div className={`grid grid-cols-1 gap-12 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2 pt-16   ${isArabic ? "text-right" : "text-left"}`}>
             <div>
               <p className="text-[24px] font-[Poppins] font-[700] text-[#FC746C]">
                 {t('footer.services')}
@@ -141,9 +141,9 @@ export default function Footer() {
 
         <div className="mt-12 border-t-2 border-white pt-6">
           <div className={`text-center sm:flex sm:${isArabic ? "flex-row-reverse" : "flex-row"} sm:text-left`}>
-            <p className="text-[10px] text-[#461A2D]">© 2023 POSTGAIT Inc.</p>
+            <p className="text-[10px] text-[#461A2D]">© 2023 TROXO Inc.</p>
             <p className="mt-4 text-[10px] text-[#461A2D] sm:order-first sm:mt-0">
-              © 2023 POSTGAIT.com, subsidiary of Iktsar Elzaman. All rights reserved.
+              © 2023 TROXO.com, subsidiary of Iktsar Elzaman. All rights reserved.
             </p>
           </div>
         </div>

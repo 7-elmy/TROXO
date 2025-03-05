@@ -1,7 +1,7 @@
 
 
 import React, { useState } from "react";
-import logo from "../../assets/logo.png";
+import logo from "../../assets/logo1.png";
 import { Link } from "react-router-dom";
 import { MdOutlineLanguage } from "react-icons/md";
 import { useTranslation } from "react-i18next";
