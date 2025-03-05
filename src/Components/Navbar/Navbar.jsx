@@ -58,6 +58,11 @@ export default function Navbar() {
                     {t("navbar.blogs")}
                   </Link>
                 </li>
+                <li>
+                  <Link to="/FAQ" className="text-gray-600 transition hover:text-gray-800">
+                    {t("navbar.FAQ")}
+                  </Link>
+                </li>
               </ul>
             </nav>
           </div>
@@ -142,6 +147,11 @@ export default function Navbar() {
                   {t("navbar.blogs")}
                 </Link>
               </li>
+              <li>
+                  <Link to="/FAQ" className="text-gray-600 transition hover:text-gray-800">
+                    {t("navbar.FAQ")}
+                  </Link>
+                </li>
               <li className="mt-4">
                 <button
                   onClick={toggleLanguage}

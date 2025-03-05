@@ -111,7 +111,7 @@ export default function Footer() {
                     {item == "terms" ? <Link to={"/term&Condition"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
                       {t(`footer.${item}`)}
                     </Link>:""}
-                    {item == "FAQs" ? <Link to={"/"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
+                    {item == "FAQs" ? <Link to={"/FAQ"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">
                       {t(`footer.${item}`)}
                     </Link>:""}
                     {item == "privacy" ? <Link to={"/privacy"} className="text-[#461A2D] font-[Poppins] transition hover:text-[#461A2D] text-[16px]" href="#">

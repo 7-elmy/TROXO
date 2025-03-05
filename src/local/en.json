@@ -269,7 +269,8 @@
                   "blogs": "Blogs",
                   "login": "Login",
                   "signup": "Start For Free",
-                  "language": "Language"
+                  "language": "Language",
+                  "FAQ":"FAQs"
                 },
                 "about-us":{
                   "manage":"Manage your shipments",
@@ -307,7 +308,27 @@
                   "explore":"Explore More"
                   
 
-}
+},
+"questions": [
+    {
+      "id": 1,
+      "question": "Is Troxo a shipping company?",
+      "answer": "Troxo is not a shipping or delivery company; it is a comprehensive shipping gateway specialized in building technologies for managing shipping operations and automation for e-commerce. Troxo enables retailers (omnichannel) to ship, manage, track, analyze, and return orders, along with integration with the best local and international shipping companies—all through a single dashboard.",
+      "linkText": "Start Free"
+    },
+    {
+      "id": 2,
+      "question": "Do I need a contract with Troxo?",
+      "answer": "Joining Troxo does not require any contracts. All you need to do is create your account and top up your wallet to be used when shipping your orders with different shipping companies.",
+      "linkText": "Start Free"
+    },
+    {
+      "id": 3,
+      "question": "Can I ship with multiple companies at the same time?",
+      "answer": "Yes, you can ship with multiple companies at the same time through Troxo, unlike the traditional shipping system that restricts you to contracting with one or two shipping companies.",
+      "linkText": "Start Free"
+    }
+  ]
 
                 
 
