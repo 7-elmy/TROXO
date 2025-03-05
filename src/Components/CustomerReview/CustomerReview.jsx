@@ -2,6 +2,8 @@
 import React from 'react'
 import {motion} from "framer-motion"
 import { useTranslation } from 'react-i18next'
+import { GoPersonFill } from "react-icons/go";
+import { BsPerson } from "react-icons/bs";
 export default function CustomerReviewsLandingPage() {
     const [t, i18n]= useTranslation()
   return (
@@ -15,13 +17,16 @@ export default function CustomerReviewsLandingPage() {
       </h2>
   
       <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-3 md:gap-8">
+      
+  
         <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-14 rounded-full object-cover"
-            />
+           
+            <div className='w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'>
+
+            {/* <GoPersonFill className="size-12 rounded-full object-cover text-gray-500" /> */}
+            <BsPerson  className="size-8 rounded-full object-cover text-gray-500"/>
+            </div>
   
             <div>
               <div className="flex justify-center gap-0.5 text-[#FC746C]">
@@ -77,24 +82,24 @@ export default function CustomerReviewsLandingPage() {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">Salman Al-Otaibi</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+          
+          .اللّٰه يجزاكم خير، وأشكركم لأنكم تردون أول بأول، ما قصرتوا أبدًا، تعامل راقي وسرعة في الاستجابة، فعلاً خدمة مميزة وتستحقون الثقة.
+          أقدر حرصكم والمتابعة والسؤال، كل الشكر على الخدمة المميزة!
           </p>
         </blockquote>
-  
         <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-14 rounded-full object-cover"
-            />
+           
+            <div className='w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'>
+
+            {/* <GoPersonFill className="size-12 rounded-full object-cover text-gray-500" /> */}
+            <BsPerson  className="size-8 rounded-full object-cover text-gray-500"/>
+            </div>
   
             <div>
               <div className="flex justify-center gap-0.5 text-[#FC746C]">
@@ -150,24 +155,23 @@ export default function CustomerReviewsLandingPage() {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">فهد القحطاني</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+          
+          أفضل تعامل جربته ما شاء الله، المنتجات وصلت كلها سليمة وسرعة في التوصيل، خدمة رائعة وتجاوزت التوقعات
           </p>
         </blockquote>
-  
         <blockquote className="rounded-lg cursor-pointer  bg-gray-50 p-6 shadow-sm sm:p-8">
           <div className="flex items-center gap-4">
-            <img
-              alt=""
-              src="https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1180&q=80"
-              className="size-14 rounded-full object-cover"
-            />
+           
+            <div className='w-[50px] h-[50px] rounded-full flex justify-center items-center bg-white'>
+
+            {/* <GoPersonFill className="size-12 rounded-full object-cover text-gray-500" /> */}
+            <BsPerson  className="size-8 rounded-full object-cover text-gray-500"/>
+            </div>
   
             <div>
               <div className="flex justify-center gap-0.5 text-[#FC746C]">
@@ -223,14 +227,13 @@ export default function CustomerReviewsLandingPage() {
                 </svg>
               </div>
   
-              <p className="mt-0.5 text-lg font-medium text-gray-900">Paul Starr</p>
+              <p className="mt-0.5 text-lg font-medium text-gray-900">نورة السبيعي</p>
             </div>
           </div>
   
           <p className="mt-4 text-gray-700">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa sit rerum incidunt, a
-            consequuntur recusandae ab saepe illo est quia obcaecati neque quibusdam eius accusamus
-            error officiis atque voluptates magnam!
+          
+          والله يعني ما أخطيت لما اخترت التعامل معكم، خدمة راقية، تعامل احترافي، وسرعة في التنفيذ، فعلاً خيار موفق!
           </p>
         </blockquote>
       </div>
